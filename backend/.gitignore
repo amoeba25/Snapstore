@@ -1,3 +1,14 @@
+# extra folders
+flask_session
+__pycache__
+templates
 
 # virtual env
 snapstore-venv
+
+# extra files
+extra.py
+database.py
+
+# enviornments
+.env
