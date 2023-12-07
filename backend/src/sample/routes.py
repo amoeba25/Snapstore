@@ -1,2 +1,8 @@
+from flask import jsonify
+
 def index():
-    return '<h1> Hello World! </h1>'
+    data = {
+        "name": "xyz",
+        "data": "This is my JSON response"
+    }
+    return jsonify(data)

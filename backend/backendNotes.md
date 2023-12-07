@@ -94,3 +94,7 @@ This lacks secuirty and we will need to store the session id on the backend. Thi
 
 Here, again we send the username and password but instead of storing this session in the database and responding with a session id, the server will create a JWT. Server will send this JWT to the client computer and this is kept in the local storage in the browser so that on future request, this JWT will be added to the authorization header, prefixed with the bearer of the token. So the server will just need to validate the signature. *So nothing is stored in the server*. Here the authentication state is managed on the client (unlike the sessions). 
 
+## The CORS issues
+
+
+
